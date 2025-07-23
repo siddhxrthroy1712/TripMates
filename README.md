@@ -35,7 +35,3 @@
 - 💬 In-app messaging (coming soon)
 - 📱 Fully mobile responsive
 
----
-
-## 📂 Project Structure
-
