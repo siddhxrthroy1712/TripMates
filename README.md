@@ -16,9 +16,6 @@
 - ⚙️ Express.js
 - 🗄️ MongoDB + Mongoose
 
-### 🔐 Authentication & APIs
-- 🔑 Firebase Auth / JWT
-- 🗺️ Google Maps API (route, distance, location)
 
 ### ☁️ Deployment & DevOps
 - ▲ Vercel (Frontend)
