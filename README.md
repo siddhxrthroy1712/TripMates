@@ -17,11 +17,6 @@
 - 🗄️ MongoDB + Mongoose
 
 
-### ☁️ Deployment & DevOps
-- ▲ Vercel (Frontend)
-- 🔁 Render / Railway (Backend)
-- 🧪 GitHub Actions (CI/CD)
-
 ---
 
 ## 🚀 Features
