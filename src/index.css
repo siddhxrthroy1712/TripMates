@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "tailwindcss"; */
+/* Add to your global CSS file */
+:root {
+  --purple-primary: #412160;
+}
+
+/* Calendar Picker Styles */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1) hue-rotate(180deg);
+  opacity: 0.8;
+  background-color: white;
+}
+
+.react-calendar {
+  background-color: white !important;
+  color: var(--purple-primary) !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.react-calendar__tile--active {
+  background-color: var(--purple-primary) !important;
+  color: white !important;
+}
+
+.react-calendar__tile--now {
+  background-color: rgba(65, 33, 96, 0.1) !important;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: rgba(65, 33, 96, 0.1) !important;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: rgba(65, 33, 96, 0.1) !important;
+}
